@@ -1,0 +1,442 @@
+body{
+    margin: 0px;
+    font-family: spotify;
+}
+
+@font-face {
+    font-family: spotify;
+    src: url(/Circular/CircularStd-Book.otf);
+  }
+.header{
+   width: 100%;
+   height: 80px;
+   background: #000;
+   
+}
+.image_div img{
+    float: left;
+    width: 100px;
+    margin-left: 200px;
+    margin-top :23px;
+}
+
+
+.img{
+    margin-left: 90px;
+    padding: 20px;
+    height: 36px;
+    color: white;
+}
+.sidelist{
+    width: 40%;
+    height: 20px;
+    margin-left: 702px;
+    padding-top: 30px;
+    background-color: #000;
+
+
+}
+.rightside{
+    background-color: #000;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    
+
+}
+#r2{
+    padding-left: 46px;
+    
+}
+#r3{
+    padding-left: 46px;
+}
+#r4{
+    padding-left: 46px;
+    cursor:default;
+}
+#r5{
+    padding-left: 46px;
+}
+.rightside:hover{
+    color: green;
+}
+.mainbody{
+    width: 100%;
+    background-image: url(https://www.scdn.co/i/free/bubbles-dktp.svg);
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 570px;
+    display: flex;
+    background-color:#ac0cc9;
+    background-size:cover ;
+   
+    
+}
+.back{
+    width:21% ;
+    height: 550px;
+    background-color: white;
+    margin-top: 66px;
+    margin-left: 131px;
+    border-radius: 40px;
+    
+}
+#mobilescreenshot{
+    margin-left: 6px;
+    margin-top: 23px;
+    width: 266px;
+    height: 453px;
+    
+}
+
+.mobilebutton{
+    width: 40px;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 122px;
+    margin-top: 22px;
+
+}
+
+.para{
+
+      width: 800px;
+      height: 100px;
+      margin-top: 80px;
+      font-size: 30px;
+      margin-left: 155px;
+      color: white;
+    
+
+}
+.spotifybutton{
+
+    height: 50px;
+    font-size: 18px;
+    border-radius: 30px ;
+    border: white;
+    width: 200px;
+    cursor: pointer;
+    word-spacing: 1px;
+    }
+    .spotifybutton:hover{
+        width: 220px;
+        height: 60px;
+    }
+
+.whyspotify{
+    width: 100%;
+    height: 100px;
+    background-color:white;
+}
+.why{
+    font-size: 44px;
+    color: black;
+    text-align: center;
+    margin-top: 90px;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+
+}
+
+.icons{
+    height:139px ;
+    width:139px ;
+}
+#icon2{
+   padding-left: 181px;
+
+}
+#icon3{
+    padding-left: 181px;
+
+}
+#icon4{
+    padding-left: 171px;
+
+}
+.tablediv{
+    padding-left: 161px;
+    
+}
+.iconhead{
+    padding-left: 58px;
+    padding-top: 30px;
+    font-size: 20px;
+    /* font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif; */
+}
+
+.iconpara{
+    /* font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif; */
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: normal;
+    font-weight: 2px;
+    text-align: center;
+}
+   
+
+
+#headpara1{
+    padding: 50px;
+    padding-top: 2px;
+
+}
+#headpara2{
+    padding: 50px;
+    padding-top: 2px;
+}
+#headpara3{
+    padding: 50px;
+    padding-top: 2px;
+}
+#headpara4{
+    padding: 50px;
+    padding-top: 2px;
+    
+}
+
+.itsfree{
+    margin-top: 42px;
+    width: 100%;
+    height: 450px;
+    background-color: #ac0cc9;
+    line-height: 15px;
+    
+}
+.itsfreetext1{
+    color: white;
+    text-align: center;
+    padding-top: 163px;
+    font-size: 47px;
+    /* font-family: spotify-circular,Helvetica,Arial,sans-serif; */
+    
+}
+.itsfreetext2{
+    color: white;
+    text-align: center;
+    font-size: 47px;
+    /* font-family: spotify-circular,Helvetica,Arial,sans-serif; */
+}
+gotqdiv{
+
+    width: 100%;
+    height: 350px;
+    background-color: red;
+
+}
+goth{
+    color: black;
+    text-align: center;
+
+}
+
+.got_questions{
+    width: 100%;
+    height: 200px;
+    background-color:white;
+    margin-top: -19px;
+}
+.table_div_rows{
+    line-height: 95px;
+}
+.questions{
+    text-align: center;
+    padding-top: 84px;
+    font-family: spotify-circular,Helvetica,Arial,sans-serif;
+    font-size: 40px;
+
+}
+.arrow_des{
+    padding-left: 193px;
+    font-size: 19px;
+    cursor: pointer;
+    
+}
+.arrow_size{
+        height: 19px;
+        width: 19px;
+        margin-left: -38px;
+        background-color: #747070;
+       
+    }
+    .line{
+        width: 1015px;
+        margin-left: 125px;
+        color: #747070;
+        border-top: 1px;
+    }
+    .row:hover{
+        text-decoration: underline;
+    
+    }
+    
+    
+    .background_spotify{
+        width: 100%;
+        height: 450px;
+        background-image: url(https://www.scdn.co/i/free/bubbles-dktp.svg);
+        background-color: #ac0cc9;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; 
+        margin-top: 63px;  
+    
+    }
+    .ready_lets_play{
+        color: white;
+        text-align: center;
+        padding-top: 110px;
+        font-size: 80px;
+    
+    }
+    .spotifybutton2{
+    
+        height: 50px;
+        font-size: 18px;
+        border-radius: 30px ;
+        border: white;
+        width: 200px;
+        cursor: pointer;
+        word-spacing: 1px;
+        margin-left: 569px;
+    }
+    .spotifybutton2:hover{
+        width: 220px;
+        height: 60px;
+    }
+    .footer_head_div{
+        width: 100%;
+        height: 415px;
+        background-color: #000;
+        display: flex;
+    }
+    .img_spotify_footer{
+        height: 41px;
+        margin-left: 172px;
+        margin-top: 61px;
+    }
+    .footer_second_table{
+        height: 100px;
+        width: 100px;
+        color: white;
+    
+    }
+    
+    .table_footer{
+        line-height: 28px;
+        margin-left: 109px;
+        margin-top: 57px;
+        
+    }
+    .footer_second_head{
+        padding: 11px;
+        font-size: 15px;
+        color: #857878;
+    }
+    .footer_row{
+        padding: 11px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .footer_row:hover{
+        color: green;
+    }
+    
+    
+    .social_media{
+        margin-left: 643px;
+        margin-top: 64px;
+        cursor: pointer;
+    }
+    
+    #svg_insta{
+        width: 31px;
+        height: 63px;
+        margin-left: 12px;
+        margin-top: -5px;
+    }
+    #svg_twitter{
+        width: 44px;
+        height:28px;
+        margin-left: 5px;
+        margin-top: 12px;
+    
+    }
+    #svg_facebook{
+        width: 27px;
+        height: 45px;
+        margin-left: 12px;
+        margin-top: 3px;
+    
+    }
+    
+    
+    
+    
+    
+    .circle1{
+      height: 52px;
+      width: 52px;
+      background-color:#282323;
+      border-radius: 50%;
+      display: inline-block;
+      padding: 1px;
+    }
+    .circle2{
+        height: 52px;
+        width: 52px;
+        background-color:#282323;
+        border-radius: 50%;
+        display: inline-block;
+        padding: 1px;
+      }
+      .circle3{
+        height: 52px;
+        width: 52px;
+        background-color:#282323;
+        border-radius: 50%;
+        display: inline-block;
+        padding: 1px;
+      }
+    
+    svg {
+        width: 12px;
+        height: 12px;
+        fill: #857878;
+    }
+    .footer_last{
+        width: 100%;
+        height: 135px;
+        background-color: black;
+        display: flex;
+    }
+    .last_table{
+        color: #857878;
+        font-size: 13px;
+        margin-left: 108px;
+        margin-top: 22px;
+        cursor: pointer;
+    }
+    .terms:hover{
+        color: green;
+    }
+    #earth{
+        height: 14px;
+        width: 14px;
+    }
+    #copy{
+        height: 12px;
+        width: 12px;
+    }
+    .last_right_table{
+        margin-left: 623px;
+        margin-top: 20px;
+        font-size: 10px;
+        color: #747070;
+    }
+    .india:hover{
+        color: green;
+        cursor: pointer;
+    }
+    
